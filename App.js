@@ -1,0 +1,19 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AppNavigator from './src/navigation/AppNavigator';
+import { CartProvider } from './src/context/CartContext';
+
+export default function App() {
+  return (
+    <SafeAreaProvider>
+      <CartProvider>
+        <NavigationContainer>
+          <StatusBar style="dark" />
+          <AppNavigator />
+        </NavigationContainer>
+      </CartProvider>
+    </SafeAreaProvider>
+  );
+}
