@@ -1,6 +1,6 @@
 # ShopEase - Product Catalogue (DCIT 324, Assignment 3)
 
-**Student ID:** 11357061
+**Student ID:** 22171739
 
 A React Native (Expo) app built from the ShopEase eCommerce Figma UI kit.
 Covers a product catalogue, product details screen, and cart, using
